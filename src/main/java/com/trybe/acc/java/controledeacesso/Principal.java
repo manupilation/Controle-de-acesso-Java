@@ -63,7 +63,7 @@ public class Principal {
     System.out.println("a partir de 50: " + seniorSize + "\n ");
     
     System.out.println("----- Percentual -----");
-    DecimalFormat decimalFormat = new DecimalFormat("00.0");
+    DecimalFormat decimalFormat = new DecimalFormat("0.0#");
 
     String menoresPercentage = decimalFormat.format((double) childeSize * 100 / total);
     String adultosPercentage = decimalFormat.format((double) adultSize * 100 / total);

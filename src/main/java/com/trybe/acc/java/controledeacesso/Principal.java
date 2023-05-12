@@ -1,8 +1,8 @@
 package com.trybe.acc.java.controledeacesso;
 
+import java.lang.Short;
 import java.text.DecimalFormat;
 import java.util.ArrayList;
-import java.lang.Short;
 import java.util.Scanner;
 
 /**
